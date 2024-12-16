@@ -1,0 +1,9 @@
+POST http://127.0.0.1:8000/api/purchases/ 
+Content-Type: application/json 
+
+{ 
+    "supplier": "3cce1a23-d1b2-415f-89a4-6708d7c1c092", 
+    "materials": [
+        {"material": "9e28cc78-67bf-47a2-b478-d9097df4b378", "quantity": "10"}
+    ]
+}
